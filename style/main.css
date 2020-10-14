@@ -1,0 +1,147 @@
+/*сброс стилей css*/
+
+* {
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*сброс стилей css*/
+
+.container {
+    font-size: 40px;
+    width: 1400px;
+    height: 1021px;
+    position: relative;
+}
+
+#main {
+    height: 921px;
+}
+
+.main_top {
+    height: 250px;
+}
+
+.main_middle {
+    height: 345px;
+    position: relative;
+}
+
+#header {
+    position: absolute;
+    width: 409px;
+    height: 38px;
+    left: 496px;
+    top: 100px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+}
+
+#line {
+    position: absolute;
+    width: 64px;
+    height: 2px;
+    left: 668px;
+    top: 163px;
+    background-color: #E72424;
+}
+
+#text1 {
+    position: absolute;
+    width: 363px;
+    height: 19px;
+    left: 519px;
+    top: 195px;
+    text-align: justify;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+}
+
+.circle {
+    /* position: absolute; */
+    width: 70px;
+    height: 70px;
+    left: 140px;
+    top: 0px;
+    mix-blend-mode: normal;
+    border: 1px solid #E72424;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.circle {
+    /* position: absolute; */
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    top: 31px;
+}
+
+.card {
+    height: 345px;
+    width: 350px;
+    position: relative;
+    float: left;
+}
+
+.card h3 {
+    /* position: absolute; */
+    /* top: 131px; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.card p {
+    /* position: absolute; */
+    /* top: 176px; */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.main_middle .card {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    float: none;
+}
+
+#lamp img {
+    width: 23px;
+    height: 30px;
+    margin: 19px 20px 19px 20px;
+}
+
+#keyboard img {
+    width: 37px;
+    height: 26px;
+    margin: 20px 20px 20px 15px;
+}
+
+#lightning img {
+    width: 21px;
+    height: 33px;
+    margin: 20px 20px 20px 24px;
+}
